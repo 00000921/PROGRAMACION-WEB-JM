@@ -1,0 +1,32 @@
+nav,
+.information {
+    width: 80%;
+    margin: auto;
+}
+
+nav {
+    @include flex(space-between, center, nowrap);
+
+    ul {
+        display: flex;
+        padding: 0;
+
+        a {
+            padding: 10px;
+            font-size: 1.6rem;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #000;
+            transform: scale(1.1);
+
+
+        }
+    }
+}
+
+.name-page {
+    width: 89px;
+    height: 35px;
+}

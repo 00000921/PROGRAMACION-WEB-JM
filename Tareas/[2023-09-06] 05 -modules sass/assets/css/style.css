@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+.btn, .btn-learn {
+  border: none;
+  border-radius: 15px;
+  padding: 0.7rem 1.5rem;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.btn-header, .btn-login, .btn-register {
+  border: none;
+  border-radius: 15px;
+  padding: 0.7rem 1.5rem;
+  cursor: pointer;
+  margin-right: 13px;
+  margin-bottom: 49px;
+  font-size: 94%;
+  font-weight: 600;
+  background-color: rgba(219, 214, 214, 0.788);
+  border-color: #000;
+}
+
+.btn-learn {
+  color: #fff;
+  background-color: #000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(134, 132, 132);
+}
+
+p {
+  font-size: 1.8rem;
+  color: rgb(134, 132, 132);
+}
+
+h1 {
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+  margin-top: -22px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  border-top: 30px;
+  width: -webkit-fill-available;
+  height: min-content;
+}
+
+header,
+.flex-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+}
+
+div,
+.flex-item1 {
+  max-width: 100%;
+}
+
+.information {
+  padding-top: 152px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.information .flex-item2 {
+  text-align: center;
+}
+.information h1 {
+  text-align: left;
+  margin-top: 0px;
+  padding-right: 20px;
+  font-size: 3rem;
+}
+.information p {
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+nav,
+.information {
+  width: 80%;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+nav ul {
+  display: flex;
+  padding: 0;
+}
+nav ul a {
+  padding: 10px;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+nav ul a:hover {
+  color: #000;
+  transform: scale(1.1);
+}
+
+.name-page {
+  width: 89px;
+  height: 35px;
+}
+
+/*# sourceMappingURL=style.css.map */

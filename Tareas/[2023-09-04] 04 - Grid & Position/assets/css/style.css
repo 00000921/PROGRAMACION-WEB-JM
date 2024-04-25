@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Montserrat&family=Raleway&family=Roboto&display=swap');
+
+:root {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", sans-serif;
+}
+
+/* Main config */
+
+body > section {
+  width: 100%;
+  min-height: 100vh;
+
+  padding: 1rem;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  background: #eee;
+}
+
+/* Card */
+
+.card {
+  width: 400px;
+  height: 200px;
+
+  padding: 1.5rem;
+  background: white;
+  justify-content: center;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  position: relative;
+}
+
+.card p {
+  text-align: center;
+  
+}
+
+
+.top-right {
+  position: absolute;
+  transform: rotateY(180deg);
+  top: -0.5rem;
+  right: -0.5rem;
+}
+
+.top-left {
+  position: absolute;
+  top: -0.5rem;
+  left: -0.5rem;
+}
+
+.bottom-right {
+  position: absolute;
+  transform: rotate(180deg);
+  bottom: -0.5rem;
+  right: -0.5rem;
+}
+
+.bottom-left {
+  position: absolute;
+  transform: rotateX(180deg);
+  bottom: -0.5rem;
+  left: -0.5rem;
+}
+
+.square {
+  display: grid;
+
+  grid-template-columns: 1rem, 1rem, 1rem;
+  grid-template-rows: 1rem, 1rem, 1rem;
+
+  width: 3rem;
+  height: 3rem;
+
+}
+
+.red {
+  border-top-right-radius: 0.5rem;
+  background-color: #db143b;
+  grid-column: 2 / span 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+
+}
+
+.pink{
+  border-top-left-radius: 0.5rem;
+  background-color: #fa1592;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row: 1 / span 2;
+
+}
+
+.purple{
+  border-bottom-right-radius: 0.5rem;
+  background-color: #473b78;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row: 2 / span 2;
+
+}
+
+.skyblue{
+  border-bottom-left-radius: 0.5rem;
+  background-color: #08bcfb;
+  grid-column: 1 / span 2;
+  grid-row-start: 3;
+  grid-row-end: 3;
+
+}

@@ -1,0 +1,34 @@
+#hobbies-container{
+    
+    margin: 2rem;
+    padding:2rem 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2rem 3rem;
+    justify-content: center;
+}
+.hobby-item{
+    margin: 10px;
+    padding: 1rem;
+    min-width: 12rem;
+    border-radius: 8px;
+    max-width: 22rem;
+    height: 26rem;
+    background-color: cadetblue;
+    text-align: center;
+    
+}
+.hobby-item+.hobby-item{
+    background-color: yellow;
+}
+.hobby-item+.hobby-item+.hobby-item{
+    background-color: firebrick;
+}
+img{
+    min-width: 9rem;
+    max-width: 10rem;
+}

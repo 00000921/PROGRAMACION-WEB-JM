@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Montserrat&family=Raleway&family=Roboto&display=swap');
+
+*, *::after, *::before {
+    font-family: "Roboto", sans-serif;
+  }
+
+body>section{
+    width: 100%;
+  min-height: 100vh;
+
+  padding: 1rem;
+}
+
+body > section:nth-child(odd) {
+    background: #eee;
+  }
+
+#cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 1rem;
+}
+
+
+#cards article{
+    padding: 1rem;
+    background-color: white;
+    flex: 1 0 350px;
+    max-width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    gap: 1rem;
+
+    border: 1px solid #999;
+    border-radius: 1rem;
+}
+
+#cards article h3{
+    text-align: center;
+}
+
+#cards article p{
+    text-align: justify;
+}
+
+#buttons {
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+#buttons button {
+    width: 50%;
+    height: 35px;
+    margin: 0.2rem;
+    border: none;
+    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    color:white;
+}
+
+.color-button1 {
+  background-color: crimson;  
+}
+.color-button2 {
+    background-color: green;
+}
